@@ -1,0 +1,113 @@
+
+
+table{
+    width: 66.6%;
+    border: none;
+    table-layout: fixed;
+    font-family: Helvetica;
+    
+}
+td{
+    text-align: center;
+    font-size: 2vw;
+    font-style:normal;
+    border-radius: .1em;
+    border: none;
+   
+}
+
+th{
+    text-align: center;
+    font-size: 1.5vw;
+    font-style:normal;
+    position: relative;
+    border: none;
+    
+}
+
+.wholeTableDiv{
+    margin-top: 4em;
+    margin-left: 3em;
+}
+
+.bottom{
+    
+    margin-top: 5em;
+}
+
+
+.Metalloids{
+    background-color: greenyellow;
+    
+}
+
+.NonMetals{
+    background-color: green;
+    
+}
+
+.Halogens{
+    background-color: chartreuse;
+}
+
+.NobleGasses{
+    background-color: lightskyblue;
+    
+}
+
+.AlkaliMetals{
+    background-color:darkgoldenrod;
+    
+}
+
+.AlalineEarthMetals{
+    background-color:gold;
+    
+}
+
+.Lanthanoids{
+    background-color:coral;
+     
+}
+
+.Actinoids{
+    background-color:indianred;
+    
+}
+
+.TransitionMetals{
+    background-color:darksalmon;
+}
+
+.PostTransitionMetals{
+    background-color:cornflowerblue
+}
+
+#empty{
+    
+    empty-cells: hide;
+        
+}
+
+#legend{
+    font-size: 1vw;
+    font-style: normal;
+    border-radius: .1em;
+    border: none;
+   
+}
+/*
+
+<th class="AlalineEarthMetals" id="legend"></th>
+<th class="Lanthanoids" id="legend"></th>
+<th class="Actinoids" id="legend"></th>
+<th class="TransitionMetals" id="legend"></th>
+<th class="PostTransitionMetals" id="legend"></th>
+
+<th class="Metalloids" id="legend">Metalloids</th>
+<th class="NonMetals" id="legend"></th>
+<th class="Halogens" id="legend"></th>
+<th class="NobleGasses" id="legend"></th>
+<td class="AlkaliMetals" id="legend"></td>
+
+*/
